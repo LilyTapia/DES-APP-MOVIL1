@@ -5,26 +5,28 @@ Proyecto desarrollado en Kotlin como parte de la asignatura **Desarrollo de Apli
 El sistema implementa una aplicación de gestión veterinaria que permite registrar, consultar y administrar información de profesionales, mascotas y servicios asociados.
 
 ## Estructura del proyecto
+```text
 src/
 └── cl/
-└── duoc/
-└── veterinaria/
-├── app/
-│ ├── Main.kt
-│ └── RegistroConsultasControlador.kt
-├── model/
-│ └── Modelos.kt
-├── service/
-│ ├── AgendaVeterinario.kt
-│ ├── ConsultaService.kt
-│ └── MascotaService.kt
-└── util/
-└── InputUtils.kt
+    └── duoc/
+        └── veterinaria/
+            ├── app/
+            │   ├── Main.kt
+            │   └── RegistroConsultasControlador.kt
+            ├── model/
+            │   └── Modelos.kt
+            ├── service/
+            │   ├── AgendaVeterinario.kt
+            │   ├── ConsultaService.kt
+            │   └── MascotaService.kt
+            └── util/
+                └── InputUtils.kt
 data/
 └── veterinarios.csv
 .idea/
 .gitignore
 Veterinaria.iml
+
 
 ## Funcionalidades principales
 - Registro de consultas veterinarias.
